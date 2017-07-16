@@ -1,7 +1,7 @@
 {
   "name": "debug-x",
   "version": "1.0.0",
-  "description": "generic node debug message verbose.",
+  "description": "A simple debug adaptor to ensure use the native debug if not found npm `debug` enhances installation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,9 @@
     "adaptor"
   ],
   "author": "allex <allex.wxn@gmail.com> (http://fedor.io)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allex/debug-x.git"
+  },
   "license": "MIT"
 }
